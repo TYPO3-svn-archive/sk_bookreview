@@ -1,0 +1,24 @@
+plugin.tx_skbookreview_pi1 {
+
+	templateFile = EXT:sk_bookreview/res/template.html
+	substitutePagetitle = 
+	labelWrap = <p class="sk-bookreviews-label">|</p>
+	backLink_stdWrap.wrap = <p>|</p>
+	title_stdWrap.wrap = <p class="title">|</p>
+	noRecords_stdWrap.wrap = <p>|</p>
+	categoryGroup_stdWrap.wrap = <h3>|</h3>
+	catMenu_stdWrap.wrap = |
+	error_stdWrap.wrap = <p class="error">|</p>
+	entryCreated_stdWrap = <p class="success">|<p>
+
+	captionAltLayout = <h4>weitere Bücher</h4>
+	maxCoverWidth = 80
+	maxCoverHeight = 120
+    
+    
+	// Default CSS styling
+	_CSS_DEFAULT_STYLE (
+		
+	)
+	
+}

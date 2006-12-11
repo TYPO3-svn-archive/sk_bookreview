@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<T3DataStructure>
+  <sheets>
+  <sVIEW>
+  <ROOT>
+    <TCEforms>
+	<sheetTitle>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.view</sheetTitle>
+	</TCEforms>
+    <type>array</type>
+    <el>
+	<view_input>
+		<TCEforms>
+			<label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.view_input</label>
+			<config>
+				<type>select</type>
+				<items>
+					<numIndex index="0">
+					<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.view_input.single</numIndex>
+					<numIndex index="1">single</numIndex>
+					</numIndex>
+					<numIndex index="1">
+					<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.view_input.teaser</numIndex>
+					<numIndex index="1">teaser</numIndex>
+					</numIndex>
+					<numIndex index="2">
+					<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.view_input.list</numIndex>
+					<numIndex index="1">list</numIndex>
+					</numIndex>
+					<numIndex index="3">
+					<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.view_input.category</numIndex>
+					<numIndex index="1">menu</numIndex>
+                    </numIndex>
+                    <numIndex index="4">
+					<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.view_input.FEedit</numIndex>
+					<numIndex index="1">FEedit</numIndex>
+					</numIndex>
+				</items>
+			</config>
+		</TCEforms>
+	</view_input>
+	</el>
+	</ROOT>
+	</sVIEW>
+	
+	<sTEAS>
+	 <ROOT>
+	 <TCEforms>
+	<sheetTitle>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.tloptions</sheetTitle>
+	</TCEforms>
+	 <type>array</type>
+	 <el> 
+	  
+	 <pageforsingleview>
+	 	<TCEforms>
+		  <exclude>1</exclude>
+		  <label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.pageforsingleview</label>
+		  <config>
+		  	<type>group</type>
+			<internal_type>db</internal_type>
+			<allowed>pages</allowed>
+			<size>3</size>
+			<maxitems>22</maxitems>
+			<minitems>0</minitems>
+			<show_thumbs>1</show_thumbs>
+		  </config>
+		</TCEforms>
+	 </pageforsingleview>
+	 
+	  <view_Orderby>
+			<TCEforms>
+				<label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.view_Orderby</label>
+				<config>
+					<type>select</type>
+					<items>
+						<numIndex index="0">
+							<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.view_Orderby.datetime</numIndex>
+							<numIndex index="1">datetime</numIndex>
+						</numIndex>
+						<numIndex index="1">
+							<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.view_Orderby.reviewer</numIndex>
+							<numIndex index="1">reviewer</numIndex>
+						</numIndex>
+						<numIndex index="2">
+							<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.view_Orderby.author</numIndex>
+							<numIndex index="1">author</numIndex>
+						</numIndex>
+						<numIndex index="3">
+							<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.view_Orderby.title</numIndex>
+							<numIndex index="1">title</numIndex>
+						</numIndex>										
+					</items>
+				</config>
+			</TCEforms>
+	      </view_Orderby>
+		  
+	<sort_input>
+	<TCEforms>
+	  <label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.sort_input</label>
+	  <config>
+	    <type>select</type>
+	    <items>
+	      <numIndex index="0">
+		<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.sort_input.desc</numIndex>
+		<numIndex index="1">desc</numIndex>
+	      </numIndex>
+	      <numIndex index="1">
+		<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.sort_input.asc</numIndex>
+		<numIndex index="1">asc</numIndex>
+	      </numIndex>
+		  <numIndex index="2">
+		<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.sort_input.random</numIndex>
+		<numIndex index="1">random</numIndex>
+	      </numIndex>
+	    </items>
+	  </config>
+	</TCEforms>
+      </sort_input>
+	  
+	  
+	  <groupcat>
+	<TCEforms>
+	  <label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.groupcat</label>
+	  <config>
+	    <type>check</type>
+	    
+	  </config>
+	</TCEforms>
+      </groupcat>
+		  
+		<categorySelect>
+			<TCEforms>
+				<label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.categorySelect</label>
+				<config>
+					<type>select</type>
+					<foreign_table>tx_skbookreview_category</foreign_table>
+					<foreign_table_where>order by category</foreign_table_where>
+					<size>5</size>
+					<minitems>0</minitems>
+					<maxitems>100</maxitems>
+				</config>
+			</TCEforms>
+		</categorySelect>
+	  
+	  <categoryMode>
+			<TCEforms>
+				<label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.select_categories</label>
+				<config>
+					<type>select</type>
+					<items type="array">
+						<numIndex index="0" type="array">
+							<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.select_categories.showAll</numIndex>
+							<numIndex index="1">0</numIndex>
+						</numIndex>
+						<numIndex index="1" type="array">
+							<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.select_categories.showSelected</numIndex>
+							<numIndex index="1">1</numIndex>
+						</numIndex>
+						<numIndex index="2" type="array">
+							<numIndex index="0">LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.select_categories.DontShowSelected</numIndex>
+							<numIndex index="1">2</numIndex>
+						</numIndex>
+					</items>
+					<maxitems>1</maxitems>
+					<size>1</size>
+				</config>
+			</TCEforms>
+	      </categoryMode>
+		  
+    </el>
+  </ROOT>
+  </sTEAS>
+  
+  <sLAYOUT>
+  <ROOT>
+    <TCEforms>
+	<sheetTitle>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.layout</sheetTitle>
+	</TCEforms>
+    <type>array</type>
+    <el>
+	
+	<maxCoverwidth>
+		  	<TCEforms>
+				<label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.maxCoverwidth</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<max>3</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+		  </maxCoverwidth>
+		  
+   <maxCoverheight>
+		  	<TCEforms>
+				<label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.maxCoverheight</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<max>3</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+		  </maxCoverheight>
+	<maxReviewOnPage>
+		  	<TCEforms>
+				<label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.maxReviewOnPage</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<max>3</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+	</maxReviewOnPage>
+	
+	<pageBrowser>
+		  	<TCEforms>
+				<label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.pageBrowser</label>
+				<config>
+					<type>check</type>
+				</config>
+			</TCEforms>
+	</pageBrowser>
+	  
+	<altLayout>
+		  	<TCEforms>
+				<label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.altLayout</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<max>3</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+	</altLayout>
+	
+	<captionAltLayout>
+		  	<TCEforms>
+				<label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.captionAltLayout</label>
+				<config>
+					<type>input</type>
+					<size>32</size>
+					<max>48</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+	</captionAltLayout>
+	
+		    
+	<pageAll>
+		  	<TCEforms>
+				<label>LLL:EXT:sk_bookreview/locallang_tca.php:sk_bookreview.pi_flexform.pageAll</label>
+				<config>
+					<type>group</type>
+					<internal_type>db</internal_type>
+					<allowed>pages</allowed>
+					<size>3</size>
+					<maxitems>1</maxitems>
+					<minitems>0</minitems>
+					<show_thumbs>1</show_thumbs>
+				</config>
+			</TCEforms>
+	</pageAll>
+	  
+	 </el>
+  </ROOT>
+  </sLAYOUT>
+  
+  
+  </sheets>
+</T3DataStructure>

@@ -1,0 +1,7 @@
+plugin.sk_bookreview {
+	_CSS_DEFAULT_STYLE (
+	
+
+ )
+
+}

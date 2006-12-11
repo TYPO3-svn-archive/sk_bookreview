@@ -1,0 +1,198 @@
+<h3>TEMPLATE FOR BOOK REVIEW (SINGLE VIEW)</h3>
+<em>This is a simple HTML-Template</em> 
+
+
+<h1>Template for Single View</h1>
+<!-- ###TEMPLATE_SINGLE### -->
+<div class="css-bookreview-totalreview">
+	###TITLE###
+	###COVERIMAGE###
+	
+	###AUTHOR_LABEL### ###AUTHOR###
+	###CATEGORY_LABEL### ###CATEGORY###
+	###PUBLISHER_LABEL### ###PUBLISHER###
+	###ADDITIONAL_LABEL### ###ADDITIONAL###
+	###LEVEL_LABEL### ###LEVEL###
+	###POINTS_LABEL### ###POINTS###
+	###LINK_LABEL### ###LINK###
+	
+	###IMPRESSION_LABEL### ###IMPRESSION###
+	###DESCRIPTION_LABEL### ###DESCRIPTION###
+	###RESULT_LABEL### ###RESULT###
+
+	###PAGES_LABEL### ###PAGES###
+	###ISBN_LABEL### ###ISBN###
+	###PRICE_LABEL### ###PRICE###
+	###BUYLINK_LABEL### ###BUYLINK###
+	###DATEOFREVIEW_LABEL### ###DATEOFREVIEW###
+	###REVIEWER_LABEL### ###REVIEWER###
+	
+	###BACKLINK###
+</div>
+ <!-- ###TEMPLATE_SINGLE### -->
+
+ 
+<h1>Template for Teaser</h1>
+<!-- ###TEMPLATE_TEASER### -->
+	###PAGEBROWSER###
+<div class="css-bookreview-teaser">
+	###CATEGORYGROUP###
+	<!-- ###BOOKS### -->
+	###COVERIMAGE###
+	<!--- ###LINK_ITEM_WRAP### --->###TITLE###<!--- ###LINK_ITEM_WRAP### --->
+	###IMPRESSION###
+	<!-- ###BOOKS### -->
+</div>
+<!-- ###TEMPLATE_TEASER### -->
+ 
+<h1>Alternate Template for Teaser</h1>
+<!-- ###TEMPLATE_TEASER_ALT### -->
+<div class="css-bookreview-altteaser">
+	<!-- ###BOOKS### -->
+	<!--- ###LINK_ITEM_WRAP### --->###TITLE###<!--- ###LINK_ITEM_WRAP### --->
+	<!-- ###BOOKS### -->
+</div>
+<!-- ###TEMPLATE_TEASER_ALT### -->
+ 
+ 
+ 
+<h1>Template for List</h1>
+<!-- ###TEMPLATE_LIST### -->
+	###PAGEBROWSER###
+<div class="css-bookreview-list">
+	
+	<!-- ###BOOKS### -->
+    ###CATEGORYGROUP###  
+	<!--- ###LINK_ITEM_WRAP### --->
+	###TITLE### 
+    <!--- ###LINK_ITEM_WRAP### --->   
+    <p>Author:   ###AUTHOR###<br />
+    Category:  ###CATEGORY###  </p>
+    <!--- ###LINK_ITEM_WRAP### ---> ###COVERIMAGE###<!--- ###LINK_ITEM_WRAP### ---> 
+	<p>###IMPRESSION###</p>
+	
+	<!-- ###BOOKS### -->
+	<p class="css-bookreview-clearleft"></p>
+</div>
+<!-- ###TEMPLATE_LIST### -->
+ 
+<h1>Alternate Template for List</h1>
+<!-- ###TEMPLATE_LIST_ALT### -->
+<div class="css-bookreview-altlist">
+	<!-- ###BOOKS### -->
+    ###CATEGORYGROUP###  
+	<!--- ###LINK_ITEM_WRAP### --->
+	###COVERIMAGE###
+	###TITLE### 
+    <!--- ###LINK_ITEM_WRAP### --->   
+	###AUTHOR###
+	###IMPRESSION###
+	
+	<!-- ###BOOKS### -->
+	<p class="css-bookreview-clearleft"></p>
+</div>
+<!-- ###TEMPLATE_LIST_ALT### --> 
+
+
+<!-- ###TEMPLATE_FE_EDIT### --> 
+###ADDITIONALJS_PRE###  
+<form name="tx_skbookreview_form" action="###ACTION###" method="post" enctype="multipart/form-data" onsubmit="###ADDITIONALJS_SUBMIT###">
+###HIDDEN###
+###ERROR###
+ <fieldset>
+ <legend>###LEGEND_BOOK###</legend>
+ <p>
+  <label for="title">###L_TITLE###</label><br />
+  <input id="title" name="###TITLE###" size="60" value="###TITLE_VALUE###" />
+ </p>
+ <p>
+    <label for="title">###L_CATEGORY###</label><br />
+    <select name="###CATEGORY###" id="category" size="5" multiple="multiple">###CATEGORY_LIST###</select>
+ </p>
+
+ <p>
+  <label for="cover">###L_COVER###</label><br>
+  <input type="file" name="###COVER###" id="cover" size="38" maxlength="100000">
+ <br />###COVER_VALUE###
+ </p>
+ 
+  <p>
+  <label for="author">###L_AUTHOR###</label><br />
+  <input id="author" name="###AUTHOR###" size="60" value="###AUTHOR_VALUE###" />
+ </p>
+  <p>
+  <label for="publisher">###L_PUBLISHER###</label><br />
+  <input id="publisher" name="###PUBLISHER###" size="60" value="###PUBLISHER_VALUE###" />
+ </p>
+  <p>
+  <label for="additional">###L_ADDITIONAL###</label><br />
+  <input id="additional" name="###ADDITIONAL###" size="60" value="###ADDITIONAL_VALUE###" />
+ </p>
+ 
+ <p>
+  <label for="level">###L_LEVEL###</label><br />
+  <select id="level" name="###LEVEL###">###LEVEL_VALUE###"</select>
+ </p>
+ 
+ <p>
+  <label for="link">###L_LINK###</label><br />
+  <input id="link" name="###LINK###" size="60" value="###LINK_VALUE###" />
+ </p>
+ 
+  <p>
+  <label for="points">###L_POINTS###</label><br />
+  <select id="points" name="###POINTS###">###POINTS_VALUE###"</select>
+ </p>
+ 
+ </fieldset>
+ 
+  <fieldset>
+ <legend>###LEGEND_BOOKTEXTS###</legend>
+<p>
+   <label for="impression">###L_IMPRESSION###</label><br />   
+   ###IMPRESSION###
+</p>
+ 
+<p>
+    <label for="description">###L_DESCRIPTION###</label><br />   
+    ###DESCRIPTION###
+</p>
+
+<p> 
+    <label for="result">###L_RESULT###</label><br />   
+    ###RESULT###
+</p>
+ </fieldset> 
+  
+  <fieldset>
+ <legend>###LEGEND_BOOKREVIEW###</legend>
+ <p>
+    <label for="content">###L_CONTENT###</label><br />
+    <input id="content" name="###CONTENT###" size="20" value="###CONTENT_VALUE###" />
+ </p>
+ 
+  <p>
+    <label for="price">###L_PRICE###</label><br />
+    <input id="price" name="###PRICE###" size="20" value="###PRICE_VALUE###" />
+ </p>
+ 
+  <p>
+    <label for="isbn">###L_ISBN###</label><br />
+    <input id="isbn" name="###ISBN###" size="20" value="###ISBN_VALUE###" />
+ </p>
+ 
+   <p>
+    <label for="buylink">###L_BUYLINK###</label><br />
+    <input id="buylink" name="###BUYLINK###" size="60" value="###BUYLINK_VALUE###" />
+ </p>
+ 
+   <p>
+    <label for="reviewer">###L_REVIEWER###</label><br />
+    <input id="reviewer" name="###REVIEWER###" size="60" value="###REVIEWER_VALUE###" />
+ </p>
+ </fieldset> 
+  
+ <p><input type="submit" name="###SUBMIT###" value="###SUBMIT_VALUE###" /></p>
+</form>
+###ADDITIONALJS_POST###
+<!-- ###TEMPLATE_FE_EDIT### --> 

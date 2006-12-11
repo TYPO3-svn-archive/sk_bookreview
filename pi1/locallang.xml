@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description></description>
+        <type>module</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="page">Page</label>
+            <label index="back">Back</label>
+            <label index="submit_button_label">Click here to submit value</label>
+            <label index="noReviewIdMsg">no review_id given</label>
+            <label index="skbookreview_label">Category</label>
+            <label index="skbookreview_label.title">Title</label>
+            <label index="skbookreview_label.category">Category</label>
+            <label index="skbookreview_label.cover">Cover</label>
+            <label index="skbookreview_label.author">Author</label>
+            <label index="skbookreview_label.publisher">Publisher</label>
+            <label index="skbookreview_label.additional">Additional</label>
+            <label index="skbookreview_label.level.I.0">easy</label>
+            <label index="skbookreview_label.level.I.1">normal</label>
+            <label index="skbookreview_label.level.I.2">difficult</label>
+            <label index="skbookreview_label.level.I.3">expert</label>
+            <label index="skbookreview_label.level">Level</label>
+            <label index="skbookreview_label.link">Link</label>
+            <label index="skbookreview_label.points">Points</label>
+            <label index="skbookreview_label.impression">Impression</label>
+            <label index="skbookreview_label.description">Description</label>
+            <label index="skbookreview_label.result">Result</label>
+            <label index="skbookreview_label.pages">Content</label>
+            <label index="skbookreview_label.price">Price EUR</label>
+            <label index="skbookreview_label.isbn">ISBN</label>
+            <label index="skbookreview_label.date">Date of review</label>
+            <label index="skbookreview_label.buylink">Buy-Link</label>
+            <label index="skbookreview_label.reviewer">Reviewer</label>
+            <label index="skbookreview_allbooks">all Reviews</label>
+            <label index="read_more">read more</label>
+            <label index="no_records">there are no records</label>
+            <label index="no_index">You didn't specified a review</label>
+            <label index="more_reviews">read more reviews</label>
+            <label index="legend.books">Book</label>
+            <label index="legend.booktexts">Texts</label>
+            <label index="legend.bookreview">Review Details</label>
+            <label index="feform.submit">Save Review</label>    
+            <label index="validate.notitle">You must set a title!</label>
+            <label index="validate.nocategory">You must select at least one category!</label> 
+            <label index="feform.entrycreated">Thank You for submitting a new Bookreview.After the Admin has accepted it will be added to the other reviews.</label>       
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="page">Seite</label>
+            <label index="back">zurück</label>
+            <label index="submit_button_label">Klick hier zum übertragen</label>
+            <label index="noReviewIdMsg">keine review_id angegeben</label>
+            <label index="skbookreview_label.title">Titel</label>
+            <label index="skbookreview_label.category">Kategorie</label>
+            <label index="skbookreview_label.cover">Buchcover</label>
+            <label index="skbookreview_label.author">Autor</label>
+            <label index="skbookreview_label.publisher">Verlag</label>
+            <label index="skbookreview_label.additional">Zusatz</label>
+            <label index="skbookreview_label.level.I.0">Anfänger</label>
+            <label index="skbookreview_label.level.I.1">Anfänger bis Fortgeschrittene</label>
+            <label index="skbookreview_label.level.I.2">Fortgeschrittene</label>
+            <label index="skbookreview_label.level.I.3">Experten</label>
+            <label index="skbookreview_label.level">Schwierigkeitsgrad</label>
+            <label index="skbookreview_label.link">Webseite</label>
+            <label index="skbookreview_label.points">Bewertung</label>
+            <label index="skbookreview_label.impression">erster Eindruck</label>
+            <label index="skbookreview_label.description">Beschreibung</label>
+            <label index="skbookreview_label.result">Fazit</label>
+            <label index="skbookreview_label.pages">Umfang</label>
+            <label index="skbookreview_label.price">Preis EUR</label>
+            <label index="skbookreview_label.isbn">ISBN</label>
+            <label index="skbookreview_label.date">Datum der Rezension</label>
+            <label index="skbookreview_label.buylink">Buch Kauflink</label>
+            <label index="skbookreview_label.reviewer">Rezensor</label>
+            <label index="skbookreview_label">Kategorie</label>
+            <label index="tt_content.list_type_pi1">Buchrezension</label>
+            <label index="skbookreview_allbooks">alle Rezensionen</label>
+            <label index="read_more">mehr lesen</label>
+            <label index="no_records">Keine Datensätze vorhanden</label>
+            <label index="no_index">Es wurde keine Rezension ausgewählt</label>
+            <label index="more_reviews">weitere Rezensionen</label>
+            <label index="legend.books">Bücher</label>
+            <label index="legend.booktexts">Texte</label>
+            <label index="legend.bookreview">Rezensionsdetails</label>
+            <label index="feform.submit">Rezension speichern</label> 
+            <label index="validate.notitle">Es muss ein Titel angegeben werden!</label>
+            <label index="validate.nocategory">Es muss mindestens eine Kategorie angegeben werden!</label> 
+            <label index="feform.entrycreated">Vielen Dank für die Eingabe einer neuen Rezension .Nachdem der Admin diese akzeptiert hat, wird sie den anderen Rezensionen hinzugefügt.</label>  
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="page" type="integer">26464201</label>
+            <label index="back" type="integer">5603241</label>
+            <label index="submit_button_label" type="integer">236457811</label>
+            <label index="noReviewIdMsg" type="integer">254927244</label>
+            <label index="skbookreview_label" type="integer">61717939</label>
+            <label index="skbookreview_label.title" type="integer">192455458</label>
+            <label index="skbookreview_label.category" type="integer">61717939</label>
+            <label index="skbookreview_label.cover" type="integer">209280511</label>
+            <label index="skbookreview_label.author" type="integer">173111111</label>
+            <label index="skbookreview_label.publisher" type="integer">53244862</label>
+            <label index="skbookreview_label.additional" type="integer">41653386</label>
+            <label index="skbookreview_label.level.I.0" type="integer">76265192</label>
+            <label index="skbookreview_label.level.I.1" type="integer">266995829</label>
+            <label index="skbookreview_label.level.I.2" type="integer">27808810</label>
+            <label index="skbookreview_label.level.I.3" type="integer">194741178</label>
+            <label index="skbookreview_label.level" type="integer">168670363</label>
+            <label index="skbookreview_label.link" type="integer">159284378</label>
+            <label index="skbookreview_label.points" type="integer">123590129</label>
+            <label index="skbookreview_label.impression" type="integer">15016097</label>
+            <label index="skbookreview_label.description" type="integer">190479069</label>
+            <label index="skbookreview_label.result" type="integer">149857824</label>
+            <label index="skbookreview_label.pages" type="integer">253084106</label>
+            <label index="skbookreview_label.price" type="integer">143951901</label>
+            <label index="skbookreview_label.isbn" type="integer">157326813</label>
+            <label index="skbookreview_label.date" type="integer">184413735</label>
+            <label index="skbookreview_label.buylink" type="integer">120562959</label>
+            <label index="skbookreview_label.reviewer" type="integer">149261528</label>
+            <label index="skbookreview_allbooks" type="integer">61770250</label>
+            <label index="read_more" type="integer">227908542</label>
+            <label index="no_records" type="integer">139997487</label>
+            <label index="no_index" type="integer">119070087</label>
+            <label index="more_reviews" type="integer">60624709</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="page" type="integer">26464201</label>
+            <label index="back" type="integer">5603241</label>
+            <label index="submit_button_label" type="integer">236457811</label>
+            <label index="noReviewIdMsg" type="integer">254927244</label>
+            <label index="skbookreview_label.title" type="integer">192455458</label>
+            <label index="skbookreview_label.category" type="integer">61717939</label>
+            <label index="skbookreview_label.cover" type="integer">209280511</label>
+            <label index="skbookreview_label.author" type="integer">173111111</label>
+            <label index="skbookreview_label.publisher" type="integer">53244862</label>
+            <label index="skbookreview_label.additional" type="integer">41653386</label>
+            <label index="skbookreview_label.level.I.0" type="integer">76265192</label>
+            <label index="skbookreview_label.level.I.1" type="integer">266995829</label>
+            <label index="skbookreview_label.level.I.2" type="integer">27808810</label>
+            <label index="skbookreview_label.level.I.3" type="integer">194741178</label>
+            <label index="skbookreview_label.level" type="integer">168670363</label>
+            <label index="skbookreview_label.link" type="integer">159284378</label>
+            <label index="skbookreview_label.points" type="integer">123590129</label>
+            <label index="skbookreview_label.impression" type="integer">15016097</label>
+            <label index="skbookreview_label.description" type="integer">190479069</label>
+            <label index="skbookreview_label.result" type="integer">149857824</label>
+            <label index="skbookreview_label.pages" type="integer">253084106</label>
+            <label index="skbookreview_label.price" type="integer">143951901</label>
+            <label index="skbookreview_label.isbn" type="integer">157326813</label>
+            <label index="skbookreview_label.date" type="integer">184413735</label>
+            <label index="skbookreview_label.buylink" type="integer">120562959</label>
+            <label index="skbookreview_label.reviewer" type="integer">149261528</label>
+            <label index="skbookreview_label" type="integer">61717939</label>
+            <label index="tt_content.list_type_pi1" type="integer">222419149</label>
+            <label index="skbookreview_allbooks" type="integer">61770250</label>
+            <label index="read_more" type="integer">227908542</label>
+            <label index="no_records" type="integer">139997487</label>
+            <label index="no_index" type="integer">119070087</label>
+            <label index="more_reviews" type="integer">60624709</label>
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

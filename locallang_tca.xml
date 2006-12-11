@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description></description>
+        <type>database</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="sk_bookreview.pi_flexform.view">View</label>
+            <label index="sk_bookreview.pi_flexform.tloptions">Teaser- and Listoptions</label>
+            <label index="sk_bookreview.pi_flexform.pageforsingleview">Page for Singleview</label>
+            <label index="sk_bookreview.pi_flexform.view_input">View:</label>
+            <label index="sk_bookreview.pi_flexform.view_input.single">single</label>
+            <label index="sk_bookreview.pi_flexform.view_input.teaser">teaser</label>
+            <label index="sk_bookreview.pi_flexform.view_input.list">list</label>
+            <label index="sk_bookreview.pi_flexform.view_input.FEedit">FE Edit</label> 
+            <label index="sk_bookreview.pi_flexform.view_input.category">category menu</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby">Sorted by:</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.datetime">Date</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.reviewer">Reviewer</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.author">Book-Author</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.title">Book-Title</label>
+            <label index="sk_bookreview.pi_flexform.groupcat">Group with Categories</label>
+            <label index="sk_bookreview.pi_flexform.select_categories">Select Mode:</label>
+            <label index="sk_bookreview.pi_flexform.select_categories.showAll">Show all Categories</label>
+            <label index="sk_bookreview.pi_flexform.select_categories.showSelected">Show selected Categories</label>
+            <label index="sk_bookreview.pi_flexform.select_categories.DontShowSelected">Don't show selected Categories</label>
+            <label index="sk_bookreview.pi_flexform.categorySelect">Select Category:</label>
+            <label index="sk_bookreview.pi_flexform.itemsHeader">Special options:</label>
+            <label index="sk_bookreview.pi_flexform.category_selection_notCategorized">[not categorized]</label>
+            <label index="sk_bookreview.pi_flexform.sort_input">Sort Order:</label>
+            <label index="sk_bookreview.pi_flexform.sort_input.asc">date ascending</label>
+            <label index="sk_bookreview.pi_flexform.sort_input.desc">date descending</label>
+            <label index="sk_bookreview.pi_flexform.sort_input.random">random</label>
+            <label index="sk_bookreview.pi_flexform.maxReviewOnPage">max. Reviews on Page:</label>
+            <label index="sk_bookreview.pi_flexform.layout">Layout</label>
+            <label index="sk_bookreview.pi_flexform.maxCoverwidth">max.Width of Coverimage:</label>
+            <label index="sk_bookreview.pi_flexform.maxCoverheight">max.Height of Coverimage:</label>
+            <label index="sk_bookreview.pi_flexform.altLayout">Start alternate Layout with Element:</label>
+            <label index="sk_bookreview.pi_flexform.pageAll">Page with more Reviews</label>
+            <label index="sk_bookreview.pi_flexform.captionAltLayout">Header for alternate Layout:</label>
+            <label index="sk_bookreview.pi_flexform.pageBrowser">activate Pagebrowser:</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="sk_bookreview.pi_flexform.view">Anzeige</label>
+            <label index="sk_bookreview.pi_flexform.tloptions">Teaser- and Listoptionen</label>
+            <label index="sk_bookreview.pi_flexform.pageforsingleview">Seite für Einzelanzeige</label>
+            <label index="sk_bookreview.pi_flexform.view_input">Anzeige:</label>
+            <label index="sk_bookreview.pi_flexform.view_input.single">Einzelanzeige</label>
+            <label index="sk_bookreview.pi_flexform.view_input.teaser">Teaser</label>
+            <label index="sk_bookreview.pi_flexform.view_input.list">Liste</label>
+            <label index="sk_bookreview.pi_flexform.view_input.FEedit">FE Edit</label> 
+            <label index="sk_bookreview.pi_flexform.view_input.category">Kategorie-Menü</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby">sortiert nach:</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.datetime">Datum</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.reviewer">Rezensor</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.author">Buchautor</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.title">Buchtitel</label>
+            <label index="sk_bookreview.pi_flexform.groupcat">Gruppiere nach Kategorie</label>
+            <label index="sk_bookreview.pi_flexform.select_categories">Auswahlmodus:</label>
+            <label index="sk_bookreview.pi_flexform.select_categories.showAll">Zeige alle Kategorien</label>
+            <label index="sk_bookreview.pi_flexform.select_categories.showSelected">Zeige gewählte Kategorien</label>
+            <label index="sk_bookreview.pi_flexform.select_categories.DontShowSelected">Zeige gewählte Kategorien nicht</label>
+            <label index="sk_bookreview.pi_flexform.categorySelect">wähle Kategorie:</label>
+            <label index="sk_bookreview.pi_flexform.itemsHeader">Special options:</label>
+            <label index="sk_bookreview.pi_flexform.category_selection_notCategorized">[not categorized]</label>
+            <label index="sk_bookreview.pi_flexform.sort_input">Sortierung:</label>
+            <label index="sk_bookreview.pi_flexform.sort_input.asc">aufsteigend</label>
+            <label index="sk_bookreview.pi_flexform.sort_input.desc">absteigend</label>
+            <label index="sk_bookreview.pi_flexform.sort_input.random">zufällig</label>
+            <label index="sk_bookreview.pi_flexform.maxReviewOnPage">max. Rezensionen pro Seite:</label>
+            <label index="sk_bookreview.pi_flexform.layout">Layout</label>
+            <label index="sk_bookreview.pi_flexform.maxCoverwidth">max. Breite des Covers:</label>
+            <label index="sk_bookreview.pi_flexform.maxCoverheight">max. Höhe des Covers:</label>
+            <label index="sk_bookreview.pi_flexform.altLayout">Starte alternatives Layout ab Element:</label>
+            <label index="sk_bookreview.pi_flexform.pageAll">Seite mit mehr Rezensionen</label>
+            <label index="sk_bookreview.pi_flexform.captionAltLayout">Überschrift für alternatives Layout:</label>
+            <label index="sk_bookreview.pi_flexform.pageBrowser">aktiviere Pagebrowser:</label>
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="sk_bookreview.pi_flexform.view" type="integer">70589694</label>
+            <label index="sk_bookreview.pi_flexform.tloptions" type="integer">1212638</label>
+            <label index="sk_bookreview.pi_flexform.pageforsingleview" type="integer">706848</label>
+            <label index="sk_bookreview.pi_flexform.view_input" type="integer">233987556</label>
+            <label index="sk_bookreview.pi_flexform.view_input.single" type="integer">232112240</label>
+            <label index="sk_bookreview.pi_flexform.view_input.teaser" type="integer">67501686</label>
+            <label index="sk_bookreview.pi_flexform.view_input.list" type="integer">17492476</label>
+            <label index="sk_bookreview.pi_flexform.view_input.category" type="integer">142350154</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby" type="integer">106209089</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.datetime" type="integer">71780721</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.reviewer" type="integer">149261528</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.author" type="integer">207100574</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.title" type="integer">97469074</label>
+            <label index="sk_bookreview.pi_flexform.groupcat" type="integer">217436523</label>
+            <label index="sk_bookreview.pi_flexform.select_categories" type="integer">69063693</label>
+            <label index="sk_bookreview.pi_flexform.select_categories.showAll" type="integer">264972066</label>
+            <label index="sk_bookreview.pi_flexform.select_categories.showSelected" type="integer">220191209</label>
+            <label index="sk_bookreview.pi_flexform.select_categories.DontShowSelected" type="integer">82145455</label>
+            <label index="sk_bookreview.pi_flexform.categorySelect" type="integer">141135670</label>
+            <label index="sk_bookreview.pi_flexform.itemsHeader" type="integer">20791966</label>
+            <label index="sk_bookreview.pi_flexform.category_selection_notCategorized" type="integer">207488249</label>
+            <label index="sk_bookreview.pi_flexform.sort_input" type="integer">77973201</label>
+            <label index="sk_bookreview.pi_flexform.sort_input.asc" type="integer">236040043</label>
+            <label index="sk_bookreview.pi_flexform.sort_input.desc" type="integer">68821122</label>
+            <label index="sk_bookreview.pi_flexform.sort_input.random" type="integer">131986222</label>
+            <label index="sk_bookreview.pi_flexform.maxReviewOnPage" type="integer">73611494</label>
+            <label index="sk_bookreview.pi_flexform.layout" type="integer">247307244</label>
+            <label index="sk_bookreview.pi_flexform.maxCoverwidth" type="integer">116237151</label>
+            <label index="sk_bookreview.pi_flexform.maxCoverheight" type="integer">194607106</label>
+            <label index="sk_bookreview.pi_flexform.altLayout" type="integer">143496229</label>
+            <label index="sk_bookreview.pi_flexform.pageAll" type="integer">65606957</label>
+            <label index="sk_bookreview.pi_flexform.captionAltLayout" type="integer">198156956</label>
+            <label index="sk_bookreview.pi_flexform.pageBrowser" type="integer">243515672</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="sk_bookreview.pi_flexform.view" type="integer">70589694</label>
+            <label index="sk_bookreview.pi_flexform.tloptions" type="integer">1212638</label>
+            <label index="sk_bookreview.pi_flexform.pageforsingleview" type="integer">706848</label>
+            <label index="sk_bookreview.pi_flexform.view_input" type="integer">233987556</label>
+            <label index="sk_bookreview.pi_flexform.view_input.single" type="integer">232112240</label>
+            <label index="sk_bookreview.pi_flexform.view_input.teaser" type="integer">67501686</label>
+            <label index="sk_bookreview.pi_flexform.view_input.list" type="integer">17492476</label>
+            <label index="sk_bookreview.pi_flexform.view_input.category" type="integer">142350154</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby" type="integer">106209089</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.datetime" type="integer">71780721</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.reviewer" type="integer">149261528</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.author" type="integer">207100574</label>
+            <label index="sk_bookreview.pi_flexform.view_Orderby.title" type="integer">97469074</label>
+            <label index="sk_bookreview.pi_flexform.groupcat" type="integer">217436523</label>
+            <label index="sk_bookreview.pi_flexform.select_categories" type="integer">69063693</label>
+            <label index="sk_bookreview.pi_flexform.select_categories.showAll" type="integer">264972066</label>
+            <label index="sk_bookreview.pi_flexform.select_categories.showSelected" type="integer">220191209</label>
+            <label index="sk_bookreview.pi_flexform.select_categories.DontShowSelected" type="integer">82145455</label>
+            <label index="sk_bookreview.pi_flexform.categorySelect" type="integer">141135670</label>
+            <label index="sk_bookreview.pi_flexform.itemsHeader" type="integer">20791966</label>
+            <label index="sk_bookreview.pi_flexform.category_selection_notCategorized" type="integer">207488249</label>
+            <label index="sk_bookreview.pi_flexform.sort_input" type="integer">77973201</label>
+            <label index="sk_bookreview.pi_flexform.sort_input.asc" type="integer">236040043</label>
+            <label index="sk_bookreview.pi_flexform.sort_input.desc" type="integer">68821122</label>
+            <label index="sk_bookreview.pi_flexform.sort_input.random" type="integer">131986222</label>
+            <label index="sk_bookreview.pi_flexform.maxReviewOnPage" type="integer">73611494</label>
+            <label index="sk_bookreview.pi_flexform.layout" type="integer">247307244</label>
+            <label index="sk_bookreview.pi_flexform.maxCoverwidth" type="integer">116237151</label>
+            <label index="sk_bookreview.pi_flexform.maxCoverheight" type="integer">194607106</label>
+            <label index="sk_bookreview.pi_flexform.altLayout" type="integer">143496229</label>
+            <label index="sk_bookreview.pi_flexform.pageAll" type="integer">65606957</label>
+            <label index="sk_bookreview.pi_flexform.captionAltLayout" type="integer">198156956</label>
+            <label index="sk_bookreview.pi_flexform.pageBrowser" type="integer">243515672</label>
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

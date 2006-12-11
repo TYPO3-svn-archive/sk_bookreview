@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'sk_bookreview'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_skbookreview_books">Books</label>
+			<label index="tx_skbookreview_books.title">Title</label>
+			<label index="tx_skbookreview_books.category">Category</label>
+			<label index="tx_skbookreview_books.cover">Cover</label>
+			<label index="tx_skbookreview_books.author">Author</label>
+			<label index="tx_skbookreview_books.publisher">Publisher</label>
+			<label index="tx_skbookreview_books.additional">Additional</label>
+			<label index="tx_skbookreview_books.level.I.0">easy</label>
+			<label index="tx_skbookreview_books.level.I.1">normal</label>
+			<label index="tx_skbookreview_books.level.I.2">difficult</label>
+			<label index="tx_skbookreview_books.level.I.3">expert</label>
+			<label index="tx_skbookreview_books.level">Level</label>
+			<label index="tx_skbookreview_books.link">Link</label>
+			<label index="tx_skbookreview_books.points">Points (1-5)</label>
+			<label index="tx_skbookreview_books.impression">Impression</label>
+			<label index="tx_skbookreview_books.description">Description</label>
+			<label index="tx_skbookreview_books.result">Result</label>
+			<label index="tx_skbookreview_books.pages">Content</label>
+			<label index="tx_skbookreview_books.price">Price €</label>
+			<label index="tx_skbookreview_books.isbn">ISBN</label>
+			<label index="tx_skbookreview_books.date">Date of review</label>
+			<label index="tx_skbookreview_books.buylink">Buy-Link</label>
+			<label index="tx_skbookreview_books.reviewer">Reviewer</label>
+			<label index="tx_skbookreview_category">Category</label>
+			<label index="tx_skbookreview_category.category">Category</label>
+			<label index="tt_content.list_type_pi1">Book Review</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_skbookreview_books.title">Titel</label>
+			<label index="tx_skbookreview_books.category">Kategorie</label>
+			<label index="tx_skbookreview_books.cover">Buchcover</label>
+			<label index="tx_skbookreview_books.author">Autor</label>
+			<label index="tx_skbookreview_books.publisher">Verlag</label>
+			<label index="tx_skbookreview_books.additional">Zusatz</label>
+			<label index="tx_skbookreview_books.level.I.0">Anfänger</label>
+			<label index="tx_skbookreview_books.level.I.1">Anfänger bis Fortgeschrittene</label>
+			<label index="tx_skbookreview_books.level.I.2">Fortgeschrittene</label>
+			<label index="tx_skbookreview_books.level.I.3">Experten</label>
+			<label index="tx_skbookreview_books.level">Schwierigkeitsgrad</label>
+			<label index="tx_skbookreview_books.link">Webseite</label>
+			<label index="tx_skbookreview_books.points">Bewertung (1-5)</label>
+			<label index="tx_skbookreview_books.impression">erster Eindruck</label>
+			<label index="tx_skbookreview_books.description">Beschreibung</label>
+			<label index="tx_skbookreview_books.result">Fazit</label>
+			<label index="tx_skbookreview_books.pages">Umfang</label>
+			<label index="tx_skbookreview_books.price">Preis €</label>
+			<label index="tx_skbookreview_books.isbn">ISBN</label>
+			<label index="tx_skbookreview_books.date">Datum der Rezension</label>
+			<label index="tx_skbookreview_books.buylink">Buch Kauflink</label>
+			<label index="tx_skbookreview_books.reviewer">Rezensor</label>
+			<label index="tx_skbookreview_category">Kategorie</label>
+			<label index="tx_skbookreview_category.category">Kategorie</label>
+			<label index="tt_content.list_type_pi1">Buchrezension</label>
+		</languageKey>
+	</data>
+</T3locallang>
